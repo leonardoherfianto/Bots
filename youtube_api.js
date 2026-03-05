@@ -16,10 +16,7 @@ const TARGET_SHEET = '02 Analysis Youtube';
 
 // --- CONFIG YOUTUBE API ---
 const BASE_URL = 'https://www.googleapis.com/youtube/v3/';
-const API_KEYS = [
-    'AIzaSyALhFT3BKazNilIOtYrxosO2urcbD1Ea3Y', 
-    'AIzaSyBu4SI5QUUdO7bd-FlnNe7ct5jDpCC9Ku8' 
-];
+const API_KEYS = [/*YOURS API KEYS*\];
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -370,5 +367,6 @@ async function runYouTubeBot() {
         console.error("Critical Error:", error);
     }
 }
+
 
 runYouTubeBot();
